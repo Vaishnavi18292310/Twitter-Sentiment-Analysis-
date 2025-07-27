@@ -13,6 +13,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 
 ```
 ✅ **Key Features**
+</br>
 **TF-IDF Vectorization**: Converts text data into numerical features.</br>
 **MultinomialNB**: Naive Bayes classifier for text classification.</br>
 **LogisticRegression**: Another classical model for comparison and ensemble.</br>
@@ -20,6 +21,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 **Pipeline**: End-to-end model (TF-IDF + VotingClassifier) packed and saved.</br>
 **Sentiment Prediction**: Predict sentiment (0 = Negative, 4 = Positive) for new tweets.</br>
 **Trend Visualization**: Monthly sentiment trend plotted using matplotlib.</br>
+<hr>
 
 
 📊**Dataset**

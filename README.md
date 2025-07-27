@@ -25,23 +25,16 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 
 
 📊**Dataset**
+The dataset used is `twitter_data.csv`, which contains tweets labeled with:
 
-The project utilizes the twitter_data.csv dataset.
-This dataset comprises tweets annotated with:
+- `0` : Negative sentiment  
+- `4` : Positive sentiment
 
-    +0: Denoting Negative sentiment
+Ensure the dataset contains at least:
 
-    +4: Denoting Positive sentiment
-
-Please ensure your dataset includes at least the following columns:
-
-    +text: The actual tweet content.
-
-    +targett: The corresponding sentiment label (0 or 4).
-
-date: The date of the tweet, crucial for time-based trend analysis.
-
-
+- `text` : The tweet content  
+- `target` : Sentiment label (0 or 4)  
+- `date` : Date of tweet (used in trend analysis)
 
 🚀 How to Run
 Follow these steps to set up and run the project locally:

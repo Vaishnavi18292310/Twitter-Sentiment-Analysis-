@@ -13,7 +13,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 
 ```
 <hr>
-✅ __Key Features__
+✅**Key Features**
 
 **TF-IDF Vectorization**: Converts text data into numerical features.  
 **MultinomialNB**: Naive Bayes classifier for text classification.  

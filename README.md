@@ -50,10 +50,11 @@ Follow these steps to set up and run the project locally:
 **2. Train the Model**
 Open and execute the cells in train_model.ipynb. This notebook will:
 
--Perform text vectorization using TF-IDF.
--Train the MultinomialNB and LogisticRegression models.
--Combine these models using a VotingClassifier.
--Save the complete, trained pipeline to model_pipeline.joblib.
+- Perform text vectorization using **TF-IDF**.
+- Train the **MultinomialNB** and **LogisticRegression** models.
+- Combine these models using a **VotingClassifier**.
+- Save the complete, trained pipeline to `model_pipeline.joblib`.
+
 
 **3. Predict Sentiment**
 Launch predict_model.ipynb. This notebook demonstrates how to:

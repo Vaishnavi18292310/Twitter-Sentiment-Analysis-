@@ -63,8 +63,7 @@ Launch `predict_model.ipynb`. This notebook demonstrates how to:
 - Make sentiment predictions on new textual inputs.
 
 **4. Visualize Trends**</br>
-Execute sentiment_trend_plot.ipynb to:
-
+Execute `sentiment_trend_plot.ipynb` to:
 Generate and display plots illustrating the monthly sentiment trends from the dataset using matplotlib.
 
 📌 Requirements

@@ -67,19 +67,14 @@ Execute `sentiment_trend_plot.ipynb` to:</br>
 Generate and display plots illustrating the monthly sentiment trends from the dataset using matplotlib.
 <hr>
 
-📌**Requirements**
+📌**Requirements**</br>
 The project dependencies are listed in requirements.txt and include:
-
-numpy
-
-pandas
-
-scikit-learn
-
-matplotlib
-
-joblib
-
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- joblib
+<hr>
 📷 Sample Output
 📈 Monthly Sentiment Trends: A plot showcasing the positive versus negative sentiment distribution over time.
 

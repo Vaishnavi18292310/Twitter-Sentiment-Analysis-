@@ -81,15 +81,11 @@ The project dependencies are listed in requirements.txt and include:
 - ✅ Console Output: Model accuracy & classification report.
 <hr>
 
-🧠 Model Insights
+🧠**Model Insights**</br>
 The ensemble approach, combining Naive Bayes and Logistic Regression with soft voting, offers distinct advantages:
-
-Naive Bayes: Provides fast and robust performance, particularly effective on sparse text data.
-
-Logistic Regression: Contributes strong generalization capabilities.
-
-Soft Voting: Leverages the strengths of both classifiers by averaging their prediction probabilities, resulting in a more balanced and often more accurate overall prediction.
-
+- 🧠 Naive Bayes: Fast, robust, and effective on sparse text data.
+- 📊 Logistic Regression: Offers strong generalization.
+- 🤝 Soft Voting: Averages predictions for balanced, accurate results.
 
 
 

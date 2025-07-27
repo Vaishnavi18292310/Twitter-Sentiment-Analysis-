@@ -12,6 +12,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 └── twitter_data.csv            # Input dataset (0 = Negative, 4 = Positive)
 
 ```
+<hr>
 ✅ **Key Features**
 </br>
 **TF-IDF Vectorization**: Converts text data into numerical features.</br>

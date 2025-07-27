@@ -75,10 +75,11 @@ The project dependencies are listed in requirements.txt and include:
 - matplotlib
 - joblib
 <hr>
-📷 Sample Output
-📈 Monthly Sentiment Trends: A plot showcasing the positive versus negative sentiment distribution over time.
 
-✅ Console Output: Displays model accuracy and a detailed classification report during training.
+📷**Sample Output**</br>
+- 📈 Monthly Trends: Positive vs. negative sentiment over time.
+- ✅ Console Output: Model accuracy & classification report.
+<hr>
 
 🧠 Model Insights
 The ensemble approach, combining Naive Bayes and Logistic Regression with soft voting, offers distinct advantages:

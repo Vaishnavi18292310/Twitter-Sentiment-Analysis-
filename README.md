@@ -42,27 +42,21 @@ Ensure the dataset contains at least:
 
 Follow these steps to set up and run the project locally:
 
-1. Install Dependencies
-Bash
+**1. Install Dependencies**
 
-pip install -r requirements.txt
-2. Train the Model
+```pip install -r requirements.txt```
+**2. Train the Model**
 Open and execute the cells in train_model.ipynb. This notebook will:
 
-Perform text vectorization using TF-IDF.
+-Perform text vectorization using TF-IDF.
+-Train the MultinomialNB and LogisticRegression models.
+-Combine these models using a VotingClassifier.
+-Save the complete, trained pipeline to model_pipeline.joblib.
 
-Train the MultinomialNB and LogisticRegression models.
-
-Combine these models using a VotingClassifier.
-
-Save the complete, trained pipeline to model_pipeline.joblib.
-
-3. Predict Sentiment
+**3. Predict Sentiment**
 Launch predict_model.ipynb. This notebook demonstrates how to:
-
-Load the saved model_pipeline.joblib.
-
-Make sentiment predictions on new textual inputs.
+-Load the saved model_pipeline.joblib.
+-Make sentiment predictions on new textual inputs.
 
 4. Visualize Trends
 Execute sentiment_trend_plot.ipynb to:

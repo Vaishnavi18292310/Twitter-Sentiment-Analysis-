@@ -1,5 +1,7 @@
 # Twitter-Sentiment-Analysis
 
+![Twitter Sentiment Analysis](https://www.aimtechnologies.co/wp-content/uploads/2023/08/Sentiment-Analysis-For-Marketing.jpg)
+
 This project delves into sentiment analysis of tweets, leveraging classical machine learning models. It employs TF-IDF for robust feature extraction and trains Naive Bayes and Logistic Regression classifiers. These models are then harmonized using a Soft VotingClassifier to enhance predictive performance. The resulting model is capable of predicting sentiment and visualizing temporal trends in tweet data.
 ```
 📁 Project Structure

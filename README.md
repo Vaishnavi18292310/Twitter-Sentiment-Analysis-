@@ -39,13 +39,14 @@ Ensure the dataset contains at least:
 - `date` : Date of tweet (used in trend analysis)
 <hr>
 
-🚀 How to Run
+🚀**How to Run**
 
 Follow these steps to set up and run the project locally:
 
 **1. Install Dependencies**
 
 ```pip install -r requirements.txt```
+
 **2. Train the Model**
 Open and execute the cells in train_model.ipynb. This notebook will:
 

@@ -56,10 +56,12 @@ Open and execute the cells in train_model.ipynb. This notebook will:
 - Save the complete, trained pipeline to `model_pipeline.joblib`.
 
 
-**3. Predict Sentiment**
-Launch predict_model.ipynb. This notebook demonstrates how to:
--Load the saved model_pipeline.joblib.
--Make sentiment predictions on new textual inputs.
+**3. Predict Sentiment**</br>
+Launch `predict_model.ipynb`. This notebook demonstrates how to:
+
+- Load the saved `model_pipeline.joblib`.
+- Make sentiment predictions on new textual inputs.
+
 
 4. Visualize Trends
 Execute sentiment_trend_plot.ipynb to:

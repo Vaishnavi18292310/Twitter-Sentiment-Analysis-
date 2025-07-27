@@ -23,7 +23,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 **Pipeline**: End-to-end model (TF-IDF + VotingClassifier) packed and saved.  
 **Sentiment Prediction**: Predict sentiment (0 = Negative, 4 = Positive) for new tweets.  
 **Trend Visualization**: Monthly sentiment trend plotted using matplotlib.
-
+<hr>
 
 
 📊**Dataset**

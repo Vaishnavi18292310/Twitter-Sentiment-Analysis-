@@ -5,15 +5,10 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 📁 Project Structure
 
 ├── train_model.ipynb           # Training notebook for TF-IDF + VotingClassifier 
-
 ├── predict_model.ipynb         # Load model and predict sentiment on new text
-
 ├── sentiment_trend_plot.ipynb  # Visualization of sentiment trends using matplotlib
-
 ├── requirements.txt            # Dependencies
-
 ├── model_pipeline.joblib       # Trained pipeline model (TF-IDF + Voting)
-
 └── twitter_data.csv            # Input dataset (0 = Negative, 4 = Positive)
 
 ```

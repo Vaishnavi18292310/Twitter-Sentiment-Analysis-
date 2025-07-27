@@ -13,6 +13,7 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 
 ```
 <hr>
+
 ✅**Key Features**
 
 **TF-IDF Vectorization**: Converts text data into numerical features.  

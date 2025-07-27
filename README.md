@@ -35,8 +35,10 @@ Ensure the dataset contains at least:
 - `text` : The tweet content  
 - `target` : Sentiment label (0 or 4)  
 - `date` : Date of tweet (used in trend analysis)
+  <hr>
 
 🚀 How to Run
+
 Follow these steps to set up and run the project locally:
 
 1. Install Dependencies

@@ -3,8 +3,8 @@
 This project delves into sentiment analysis of tweets, leveraging classical machine learning models. It employs TF-IDF for robust feature extraction and trains Naive Bayes and Logistic Regression classifiers. These models are then harmonized using a Soft VotingClassifier to enhance predictive performance. The resulting model is capable of predicting sentiment and visualizing temporal trends in tweet data.
 
 ## 📁 Project Structure
-'''
-├── train_model.ipynb           # Training notebook for TF-IDF + VotingClassifier '''
+
+├── train_model.ipynb           # Training notebook for TF-IDF + VotingClassifier 
 </br>
 ├── predict_model.ipynb         # Load model and predict sentiment on new text
 </br>

@@ -12,20 +12,21 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 └── twitter_data.csv            # Input dataset (0 = Negative, 4 = Positive)
 
 ```
-✅ # Key Features
-TF-IDF Vectorization: Transforms raw text into meaningful numerical features for machine learning models.
+✅ **Key Features**
 
-Multinomial Naive Bayes: A probabilistic classifier well-suited for text classification tasks due to its efficiency and performance on sparse data.
+**TF-IDF Vectorization:** Transforms raw text into meaningful numerical features for machine learning models.
 
-Logistic Regression: A powerful linear model used for its generalization capabilities and as an ensemble component.
+**Multinomial Naive Bayes:** A probabilistic classifier well-suited for text classification tasks due to its efficiency and performance on sparse data.
 
-Soft VotingClassifier: Combines the predictions of Naive Bayes and Logistic Regression by averaging their probabilities, leading to a more robust and often more accurate ensemble model.
+**Logistic Regression:** A powerful linear model used for its generalization capabilities and as an ensemble component.
 
-Machine Learning Pipeline: An integrated pipeline that encapsulates both feature extraction (TF-IDF) and the ensemble model (VotingClassifier) for streamlined model saving and loading.
+**Soft VotingClassifier:** Combines the predictions of Naive Bayes and Logistic Regression by averaging their probabilities, leading to a more robust and often more accurate ensemble model.
 
-Sentiment Prediction: Enables the prediction of sentiment labels (0 = Negative, 4 = Positive) for unseen tweet data.
+**Machine Learning Pipeline:** An integrated pipeline that encapsulates both feature extraction (TF-IDF) and the ensemble model (VotingClassifier) for streamlined model saving and loading.
 
-Trend Visualization: Generates informative plots using matplotlib to illustrate monthly sentiment shifts and patterns.
+**Sentiment Prediction:** Enables the prediction of sentiment labels (0 = Negative, 4 = Positive) for unseen tweet data.
+
+**Trend Visualization:** Generates informative plots using matplotlib to illustrate monthly sentiment shifts and patterns.
 
 📊 Dataset
 The project utilizes the twitter_data.csv dataset. This dataset comprises tweets annotated with:

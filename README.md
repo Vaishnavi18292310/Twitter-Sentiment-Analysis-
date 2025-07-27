@@ -16,8 +16,8 @@ This project delves into sentiment analysis of tweets, leveraging classical mach
 
 ✅**Key Features**
 
-**TF-IDF Vectorization**: Converts text data into numerical features.  
-**MultinomialNB**: Naive Bayes classifier for text classification.  
+-**TF-IDF Vectorization**: Converts text data into numerical features.  
+-**MultinomialNB**: Naive Bayes classifier for text classification.  
 **LogisticRegression**: Another classical model for comparison and ensemble.  
 **VotingClassifier (soft)**: Combines predictions using averaged probabilities.  
 **Pipeline**: End-to-end model (TF-IDF + VotingClassifier) packed and saved.  
